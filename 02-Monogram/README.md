@@ -1,5 +1,13 @@
 # Monogram
 
+## Live Preview
+
+You can check out the working project here:  
+[https://monogram-avatar.netlify.app](https://monogram-avatar.netlify.app/)
+
+
+
+
 ## Problem Statement
 In modern web and mobile applications, visually representing a user's identity greatly enhances the overall user experience  especially in cases where users have not uploaded a profile image. To address this, the goal is to implement a dynamic **Avatar Generator** that allows users to create and manage text-based avatars with ease.
 

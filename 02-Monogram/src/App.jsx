@@ -7,14 +7,13 @@ function App () {
   const [name, setName] = useState('')
   const [id, setId] = useState(1)
   let colors = [
-    'blue',
-    'green',
-    'yellow',
-    'purple',
-    'pink',
-    'teal',
-    'indigo',
-    'red'
+    '#bedbff',
+    '#b9f8cf',
+    '#fff085',
+    '#c6d2ff',
+    '#ffc9c9',
+    '#fccee8',
+    '#96f7e4',
   ]
 
   function getRmdomColor () {
@@ -84,7 +83,8 @@ function App () {
         {allAvatars.map((av, index) => (
           <div
             key={index}
-            className={`relative group font-var p-5 bg-${av.color}-200 rounded-full w-12 h-12 text-lg flex justify-center items-center py-2 cursor-alias`}
+            style={{ backgroundColor: av.color }}
+            className={`relative group font-var p-5 rounded-full w-12 h-12 text-lg flex justify-center items-center py-2 cursor-alias`}
           >
             <img
               onClick={() => removeAvatar(av.id)}
