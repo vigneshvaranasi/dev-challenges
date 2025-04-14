@@ -33,7 +33,7 @@ function App () {
     }
 
     if (name.length === 1) {
-      mono = splitted[0][0] + splitted[0][0]
+      mono = splitted[0][0]
     }
 
     const newAvatar = {
