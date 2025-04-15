@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import 'tailwindcss';
+
+body {
+  background-color: black;
+  color: #e2e2e2;
+}
+
+.inconsolata-font {
+  font-family: 'Inconsolata', monospace;
+}
+
+@layer utilities {
+    .scrollbar-thin-custom {
+      scrollbar-width: thin;
+      border-radius: 10px;
+      scrollbar-color: #4b5563 #d1d5db;
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar-track {
+      background: #d1d5db;
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar-thumb {
+      background-color: #4b5563;
+      border: 2px solid #d1d5db;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  ::-webkit-scrollbar {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar:hover {
+    opacity: 1;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+  
+  * {
+    -ms-scrollbar-track-color: transparent;
+  }
