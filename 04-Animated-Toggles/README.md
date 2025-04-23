@@ -3,6 +3,4 @@ Live Demo: [https://animated-toggles.netlify.app](https://animated-toggles.netli
 
 # Problem Statement
 
-**Build a set of animated toggle switches** exactly as demonstrated in the video below.
-
-<video controls src="public/demo.mp4" title="Title"></video>
+**Build a set of animated toggle switches** exactly as demonstrated in the video in `public/demo.mp4`

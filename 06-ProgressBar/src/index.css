@@ -1,0 +1,24 @@
+body{
+    background-color: #000;
+    color: #fff;font-family: 'Courier New', Courier, monospace;
+}
+.bar-out {
+    border-radius: 10px;
+    background-color: rgb(145, 145, 145);
+    margin: 0;
+    color: white;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.bar-in {
+    border-radius: 10px;
+    color: white;
+    text-align: end;
+    padding-right: 5px;
+    transition: 0.5s ease-in;
+}
+.percentage-txt{
+    font-weight: 800;
+    color:#000;
+}
